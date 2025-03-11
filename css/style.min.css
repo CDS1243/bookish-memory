@@ -21,6 +21,16 @@ h6,
 .h6 {
   font-family: 'Work Sans', sans-serif;
   margin-top: 0; }
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  overflow: auto;
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none; /* For Firefox */
+}
 
 a {
   color: #bc9947;
